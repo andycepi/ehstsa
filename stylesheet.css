@@ -15,3 +15,8 @@ body
 	outline: solid 5px #770000 !important;
 	box-shadow: 0px 0px 50px #DD0000
 }
+
+.video-js
+{
+	outline: solid 5px #222222 !important;
+}
