@@ -1,22 +1,217 @@
 body
 {
-	background-color: #333 !important;
-	font-family: 'Ubuntu', sans-serif !important;
+  background-color: #333;
+  font-family: 'Ubuntu', sans-serif;/*"Century Gothic", "Times Roman", sans-serif;*/
 }
 
+.default-nav
+{
+  background-color: #BD0000;
+  color: #DDD;
+  border-radius: 0px;
+  width:auto;
+  height:70px;
+  margin-top:10px;
+  padding-left:50%;
+  padding-right:50%;
+  margin-left:-50%;
+  margin-right:-50%;
+  position: fixed;
+  outline: solid 5px #770000;
+  z-index: 10;
+  box-shadow: 0px 0px 25px #DD0000;
+}
+
+.phone-navbar .navbar
+{
+  margin-top:20px;
+  margin-bottom:-100px;
+  background-color:#BD0000;
+  color:#DDD;
+  border-radius:0;
+  outline: none;
+}
+
+.phone-navbar .navbar-default
+{
+  outline: none;
+}
+
+.navbar a
+{
+  text-decoration:none;
+  font-size:1.2em;
+  color: #DDD;
+}
+
+.navbar ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button
+{
+  float:left;
+  display: block;
+  color: #DDD;
+  background-color: #B00000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+  width:120px;
+  height:70px;
+  padding-top: 20px;
+  margin-top: -2px;
+}
+
+.button_
+{
+  float:left;
+  display: block;
+  color: #222;
+  background-color: #B00000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+  width:120px;
+  height:70px;
+  padding-top: 20px;
+  margin-top: -2px;
+}
+
+.selected
+{
+  background-color: #770000;
+}
+
+.imgbutton
+{
+  float:left;
+  display: block;
+  color: #222;
+  background-color: #B00000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+  width:120px;
+  height:70px;
+  padding-top: 5px;
+  margin-top:-2px;
+}
+
+.navbar a:hover, a:active
+{
+  background-color: #770000;
+}
 
 .jumbotron
 {
-	margin-top: 120px;
-	border-radius: 0px !important;
-	background-color: #CC0000 !important;
-	color: #DDDDDD !important;
-	font-size: 1.2em !important;
-	outline: solid 5px #770000 !important;
-	box-shadow: 0px 0px 50px #DD0000
+  margin-top: 120px;
+  border-radius: 0px !important;
+  background-color:#CC0000 !important;
+  color: #DDD;
+  font-size: 1.2em !important;
+  outline: solid 5px #770000 !important;
+  box-shadow: 0px 0px 50px #DD0000;
 }
 
-.video-js
+.jumbotron a
 {
-	outline: solid 5px #222222 !important;
+  color: #BCBCBC;
 }
+
+.jumbotron a:hover, a:active
+{
+  color: #BBB;
+}
+
+table, tr, td
+{
+  border: 1px solid #770000;
+}
+
+.subtitle-nav
+{
+  outline: solid 5px #770000;
+  background-color: #BB0000;
+}
+
+.subtitle-nav a
+{
+  text-decoration: none;
+  color: #DDD;
+  display: block;
+  background-color: #BB0000;
+  padding:15px;
+}
+
+.subtitle-nav a:hover, a:active
+{
+  background-color: #770000;
+}
+
+.subtitle-nav ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel
+{
+  outline: solid 5px #770000;
+}
+
+.carousel img
+{
+  float: right;
+  margin:10px;
+  outline: solid 3px #770000;
+}
+
+.leftarrow
+{
+  outline: solid 5px #770000;
+}
+
+.rightarrow
+{
+  outline: solid 5px #770000;
+}
+
+.arrow
+{
+  margin-top: 10px;
+}
+
+.left
+{
+  margin-top:5%;
+}
+
+.right
+{
+  margin-top: 5%;
+}
+
+.course-box
+{
+  outline: 5px solid #770000;
+}
+
+
+
+
+
+
+
+
+
